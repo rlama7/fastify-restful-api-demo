@@ -2,8 +2,11 @@ const fastify = require('fastify')({ logger: true });
 
 const PORT = 5000;
 
+// import
+const items = require('./Items');
+
 fastify.get('/items', (req, reply) => {
-  reply.send({ test: 'Hello World!' });
+  reply.send({ items });
 });
 
 const start = async () => {
