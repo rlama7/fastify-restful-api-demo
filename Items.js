@@ -12,3 +12,5 @@ let items = [
   { id: '6', name: 'Sam SantaCruz', occupation: 'Actor', company: 'iMedia' },
   { id: '7', name: 'Billy Biggie', occupation: 'Singer', company: 'iRedLable' },
 ];
+
+module.exports = items;
